@@ -1,0 +1,12 @@
+.hero-bg {
+	height: 100vh;
+	background-image: url('../Assets/Images/hero.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	overflow: auto;
+}
+
+.hero {
+	margin-top: 6rem;
+}
