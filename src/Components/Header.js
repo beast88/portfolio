@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 const Header = () => {
 	return (
 		<header>
-			<Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
+			<Navbar collapseOnSelect expand="sm" bg="dark" variant="dark" fixed="top">
 				<Navbar.Brand href="">Paul Rogers</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
