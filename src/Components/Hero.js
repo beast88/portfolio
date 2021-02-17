@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Styles/Hero.css'
-import Jumbotron from 'react-bootstrap/Jumbotron'
 import Carousel from 'react-bootstrap/Carousel'
 
 import images from '../Assets/images'
@@ -10,10 +9,10 @@ const Hero = () => {
 		<div className="hero-bg d-flex justify-content-center align-items-start">
 			<div className="hero d-flex justify-content-around align-items-center">
 
-				<Jumbotron>
+				<div className="intro p-5">
 					<h1>Paul Rogers</h1>
 					<p>Front End Web Developer</p>
-				</Jumbotron>
+				</div>
 
 				<Carousel className="justify-self-center">
 					<Carousel.Item>

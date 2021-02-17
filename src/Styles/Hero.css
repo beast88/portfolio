@@ -14,6 +14,12 @@
 	justify-content: space-between;
 }
 
+.intro {
+	color: white;
+	background: rgba(0, 0, 0, 0.95);
+	border-radius: 15px;
+}
+
 .carousel {
 	width: 150px;
 }
