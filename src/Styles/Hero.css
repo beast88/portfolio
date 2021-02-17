@@ -8,5 +8,24 @@
 }
 
 .hero {
-	margin-top: 6rem;
+	margin-top: 15%;
+	width: 95vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.carousel {
+	width: 150px;
+}
+
+.carousel-indicators {
+	display: none;
+}
+
+.carousel-control-prev {
+	display: none;
+}
+
+.carousel-control-next {
+	display: none;
 }
