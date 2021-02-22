@@ -12,6 +12,10 @@ const LatestProjects = () => {
 			</div>
 
 			<h2>Latest Projects</h2>
+
+			<div className="card-container">
+			</div>
+			
 		</div>
 	)
 }
