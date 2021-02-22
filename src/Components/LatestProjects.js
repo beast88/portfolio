@@ -17,15 +17,17 @@ const LatestProjects = () => {
 
 			<h2>Latest Projects</h2>
 
-			<div className="card-container">
+			<div className="card-container d-flex justify-content-between p-3">
 				{
 					latest.map(project => {
-						return <Card key={project.id} style={{ width: '18rem' }}>
-							<Card.Img varient="top" src={project.image} />
+						return <Card className="project-card" key={project.id}>
+							<Card.Img varient="top" src={project.image} style={{ height: '12rem' }} />
 							<Card.Body>
-								<Card.Title>{project.name}</Card.Title>
-								<a href={project.github} target="_blank" rel="noopener noreferrer"><button>Github</button></a>
-								<a href={project.live} target="_blank" rel="noopener noreferrer"><button>Live Project</button></a>
+								<Card.Title className="project-title" >{project.name}</Card.Title>
+								<div className="d-flex justify-content-around w-100" >
+									<a href={project.github} target="_blank" rel="noopener noreferrer"><button>Github</button></a>
+									<a href={project.live} target="_blank" rel="noopener noreferrer"><button>Live Project</button></a>
+								</div>
 							</Card.Body>
 						</Card>
 					})
