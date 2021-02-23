@@ -26,7 +26,8 @@ const Contact = () => {
 						type="text" 
 						placeholder="Enter Here"
 						name="name"
-						value={name} 
+						value={name}
+						onChange={e => setName(e.target.value)}
 					/>
 				</Form.Group>
 
@@ -36,7 +37,8 @@ const Contact = () => {
 						type="email" 
 						placeholder="example@email.com"
 						name="email"
-						value={email} 
+						value={email}
+						onChange={e => setEmail(e.target.value)}
 					/>
 				</Form.Group>
 
@@ -46,16 +48,24 @@ const Contact = () => {
 						as="textarea" 
 						placeholder="Enter your message..."
 						name="message"
-						value={email} 
+						value={message}
+						onChange={e => setMessage(e.target.value)} 
 					/>
 				</Form.Group>
 
 				<button>Submit</button>
 			</Form>
 
-			<div className="more-contact w-50 m-auto">
-				<h4>Email</h4>
-				<p>welshwebdev88@gmail.com</p>
+			<div className="more-contact w-50 m-auto p-4 d-flex justify-content-around">
+				<div className="email-address">
+					<h4>Email</h4>
+					<i class="fa fa-envelope"></i><span>welshwebdev88@gmail.com</span>
+				</div>
+
+				<div className="github">
+					<h4>Github</h4>
+					<a href="https://github.com/beast88" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
+				</div>
 			</div>
 		</div>
 	)
