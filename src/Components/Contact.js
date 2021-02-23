@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Form from 'react-bootstrap/Form'
 
 import '../Styles/Contact.css'
 
@@ -17,39 +18,44 @@ const Contact = () => {
 
 			<h2>Contact</h2>
 
-			<div className="form-container">
-				<form className="contact-form">
-					<div className="form-control">
-						<label for="name">Name</label>
-						<input
-							type="text"
-							name="name"
-							value={name}
-						/>
-					</div>
+			<Form className="w-50 p-4 m-auto">
+				<h4>Send a message</h4>
+				<Form.Group controlId="name">
+					<Form.Label>Name</Form.Label>
+					<Form.Control 
+						type="text" 
+						placeholder="Enter Here"
+						name="name"
+						value={name} 
+					/>
+				</Form.Group>
 
-					<div className="form-control">
-						<label for="email">Email Address</label>
-						<input
-							type="text"
-							name="email"
-							value={email}
-						/>
-					</div>
+				<Form.Group controlId="email">
+					<Form.Label>Email</Form.Label>
+					<Form.Control 
+						type="email" 
+						placeholder="example@email.com"
+						name="email"
+						value={email} 
+					/>
+				</Form.Group>
 
-					<div className="form-control">
-						<label for="message">Enter your message</label>
-						<textarea
-							name="message"
-							value={message}
-						/>
-					</div>
+				<Form.Group controlId="message">
+					<Form.Label>Message</Form.Label>
+					<Form.Control 
+						as="textarea" 
+						placeholder="Enter your message..."
+						name="message"
+						value={email} 
+					/>
+				</Form.Group>
 
-					<div className="button-control">
-						<button>Submit</button>
-					</div>
+				<button>Submit</button>
+			</Form>
 
-				</form>
+			<div className="more-contact w-50 m-auto">
+				<h4>Email</h4>
+				<p>welshwebdev88@gmail.com</p>
 			</div>
 		</div>
 	)
