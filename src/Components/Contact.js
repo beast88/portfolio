@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import '../Styles/Contact.css'
+
 const Contact = () => {
 	const [name, setName] = useState('')
 	const [email, setEmail] = useState('')
@@ -43,7 +45,7 @@ const Contact = () => {
 						/>
 					</div>
 
-					<div className="form-control">
+					<div className="button-control">
 						<button>Submit</button>
 					</div>
 
