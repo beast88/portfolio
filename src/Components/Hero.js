@@ -7,9 +7,9 @@ import images from '../Assets/images'
 const Hero = () => {
 	return(
 		<div className="hero-bg d-flex justify-content-center align-items-start">
-			<div className="hero d-flex justify-content-around align-items-center">
+			<div className="hero d-flex flex-column flex-md-row justify-content-around align-items-center">
 
-				<div className="intro p-5">
+				<div className="intro p-5 mb-4 mb-md-0">
 					<h1>Paul Rogers</h1>
 					<p>Front End Web Developer</p>
 				</div>

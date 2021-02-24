@@ -2,3 +2,17 @@ form {
 	background: coral;
 	border-radius: 10px;
 }
+
+.contact-form, .more-contact {
+	width: 50%;
+}
+
+.fa {
+	font-size: 1.3rem;
+}
+
+@media screen and (max-width: 960px) {
+	.contact-form, .more-contact {
+		width: 90%;
+	}
+}

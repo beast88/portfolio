@@ -18,7 +18,7 @@ const Contact = () => {
 
 			<h2>Contact</h2>
 
-			<Form className="w-50 p-4 m-auto">
+			<Form className="contact-form p-4 m-auto">
 				<h4>Send a message</h4>
 				<Form.Group controlId="name">
 					<Form.Label>Name</Form.Label>
@@ -53,16 +53,16 @@ const Contact = () => {
 					/>
 				</Form.Group>
 
-				<button>Submit</button>
+				<button type="Submit">Submit</button>
 			</Form>
 
-			<div className="more-contact w-50 m-auto p-4 d-flex justify-content-around">
-				<div className="email-address">
+			<div className="more-contact m-auto p-4 d-flex flex-column flex-md-row justify-content-around">
+				<div className="email-address mb-3 mb-md-0 align-self-start align-self-md-center">
 					<h4>Email</h4>
-					<i class="fa fa-envelope"></i><span>welshwebdev88@gmail.com</span>
+					<div className="d-flex align-items-center"><i class="fa fa-envelope pr-2"></i><span>welshwebdev88@gmail.com</span></div>
 				</div>
 
-				<div className="github">
+				<div className="github align-self-start align-self-md-center">
 					<h4>Github</h4>
 					<a href="https://github.com/beast88" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
 				</div>

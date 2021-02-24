@@ -10,8 +10,6 @@
 .hero {
 	margin-top: 15%;
 	width: 95vw;
-	display: flex;
-	justify-content: space-between;
 }
 
 .intro {
@@ -34,4 +32,10 @@
 
 .carousel-control-next {
 	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.hero {
+		margin-top: 30%;
+	}
 }
