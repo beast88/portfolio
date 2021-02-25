@@ -1,6 +1,6 @@
 .section-container {
-	border: 3px solid black;
-	background-color: lightgrey;
+	border: 1px solid #F7F0D7;
+	background-color: #657A8B;
 	width: 90%;
 	margin-bottom: 20px;
 }
@@ -12,7 +12,7 @@
 .dots-container {
 	display: flex;
 	padding: 10px;
-	border-bottom: 3px solid red;
+	border-bottom: 1px solid #F7F0D7;
 }
 
 #dot-1 {

@@ -1,3 +1,17 @@
+.bg-dark {
+	background-color: #141317!important;
+}
+
 .navbar-brand {
 	font-family: 'Lobster', cursive;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
+	color: #F7F0D7;
+	transition: ease-in-out 0.15s;
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-nav .nav-link:hover {
+	color: #F7F0D7;
+	transform: scale(1.1);
 }

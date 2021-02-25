@@ -1,6 +1,7 @@
 form {
-	background: coral;
+	background: #0A0F14;
 	border-radius: 10px;
+	color: #F7F0D7;
 }
 
 .contact-form, .more-contact {
@@ -9,6 +10,7 @@ form {
 
 .fa {
 	font-size: 1.3rem;
+	color: #212529;
 }
 
 @media screen and (max-width: 960px) {
