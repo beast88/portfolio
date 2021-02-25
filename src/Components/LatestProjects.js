@@ -35,7 +35,7 @@ const LatestProjects = () => {
 				}
 			</div>
 
-			<button>See More Projects</button>//Wrap this in a link
+			<Link className="m-auto"><button className="mb-3">See More Projects</button></Link>
 
 		</div>
 	)
