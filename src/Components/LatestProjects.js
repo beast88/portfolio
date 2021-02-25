@@ -1,6 +1,7 @@
 import React from 'react'
 import projects from '../Assets/projects'
 import Card from 'react-bootstrap/Card'
+import { Link } from 'react-router-dom'
 
 import '../Styles/Latest.css'
 
@@ -33,6 +34,8 @@ const LatestProjects = () => {
 					})
 				}
 			</div>
+
+			<button>See More Projects</button>//Wrap this in a link
 
 		</div>
 	)

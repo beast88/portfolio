@@ -1,9 +1,7 @@
 import React from 'react'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Header from './Components/Header'
-import Hero from './Components/Hero'
-import LatestProjects from './Components/LatestProjects'
-import Contact from './Components/Contact'
+import Home from './Components/Home'
 
 import './Styles/App.css'
 
@@ -12,11 +10,9 @@ function App() {
     <div className="App">
     	<BrowserRouter>
             <Header />
-        	<Hero />
-        	<div className="main-bg">
-        		<LatestProjects />
-        		<Contact />
-        	</div>
+            <Switch>
+                <Route exact path="/" component={Home} />
+            </Switch>
         </BrowserRouter>
     </div>
   );
