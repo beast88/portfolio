@@ -12,7 +12,7 @@ const Contact = () => {
 				<div id="dot-3" className="browser-dot"></div>
 			</div>
 
-			<h2>Contact</h2>
+			<h2 id="contact">Contact</h2>
 
 			<Form className="contact-form p-4 m-auto" name="contact-v1" method="POST" data-netlify="true" onSubmit="submit">
 				<input type="hidden" name="form-name" value="contact-v1" />

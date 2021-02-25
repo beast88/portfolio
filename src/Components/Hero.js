@@ -6,7 +6,7 @@ import images from '../Assets/images'
 
 const Hero = () => {
 	return(
-		<div className="hero-bg d-flex justify-content-center align-items-start">
+		<div className="hero-bg d-flex justify-content-center align-items-start" id="top">
 			<div className="backdrop">
 				<div className="hero d-flex flex-column flex-md-row justify-content-around align-items-center">
 

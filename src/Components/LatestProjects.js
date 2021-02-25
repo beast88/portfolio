@@ -8,7 +8,7 @@ const LatestProjects = () => {
 	const latest = projects.slice(0, 4)
 
 	return(
-		<div className="section-container">
+		<div className="section-container" id="portfolio">
 			<div className="dots-container">
 				<div id="dot-1" className="browser-dot"></div>
 				<div id="dot-2" className="browser-dot"></div>
