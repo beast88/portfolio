@@ -14,8 +14,8 @@ const Contact = () => {
 
 			<h2>Contact</h2>
 
-			<Form className="contact-form p-4 m-auto" name="contact v1" method="post" data-netlify="true" onSubmit="submit">
-				<input type="hidden" name="form-name" value="contact v1" />
+			<Form className="contact-form p-4 m-auto" name="contact-v1" method="POST" data-netlify="true" onSubmit="submit">
+				<input type="hidden" name="form-name" value="contact-v1" />
 
 				<h4>Send a message</h4>
 				<Form.Group controlId="name">
@@ -45,7 +45,7 @@ const Contact = () => {
 					/>
 				</Form.Group>
 
-				<button type="Submit">Submit</button>
+				<button type="submit">Submit</button>
 			</Form>
 
 			<div className="more-contact m-auto p-4 d-flex flex-column flex-md-row justify-content-around">
