@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import projects from '../Assets/projects'
 import Card from 'react-bootstrap/Card'
+import ScrollToTop from '../Helpers/ScrollToTop'
 
 const Portfolio = () => {
 	return(
 		<div className="main-bg mt-5">
+			<ScrollToTop />
+			
 			<div className="section-container">
 				<div className="dots-container">
 					<div id="dot-1" className="browser-dot"></div>

@@ -18,7 +18,7 @@ const LatestProjects = () => {
 
 			<h2>Latest Projects</h2>
 
-			<div className="card-container d-flex flex-wrap justify-content-around p-3">
+			<div className="card-container d-flex flex-wrap justify-content-around pt-3 px-3">
 				{
 					latest.map(project => {
 						return <Card className="project-card m-2" key={project.id}>
@@ -36,7 +36,7 @@ const LatestProjects = () => {
 				<div className="filling-empty-space m-2"></div>
 				<div className="filling-empty-space m-2"></div>
 				<div className="filling-empty-space m-2"></div>
-				
+
 			</div>
 
 			<div className="project-button-container mb-3">
