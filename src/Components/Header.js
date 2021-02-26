@@ -14,7 +14,7 @@ const Header = () => {
 				<Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
 					<Nav>
 						<Nav.Link as={HashLink} smooth to="/#top" className="ml-4">Home</Nav.Link>
-						<Nav.Link as={HashLink} smooth to="/#portfolio" className="ml-4">Portfolio</Nav.Link>
+						<Nav.Link as={HashLink} smooth to="/#projects" className="ml-4">Portfolio</Nav.Link>
 						<Nav.Link as={HashLink} smooth to="/#contact" className="ml-4">Contact</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>

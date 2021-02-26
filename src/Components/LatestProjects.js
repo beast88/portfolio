@@ -9,7 +9,7 @@ const LatestProjects = () => {
 	const latest = projects.slice(0, 4)
 
 	return(
-		<div className="section-container" id="portfolio">
+		<div className="section-container" id="projects">
 			<div className="dots-container">
 				<div id="dot-1" className="browser-dot"></div>
 				<div id="dot-2" className="browser-dot"></div>
@@ -33,9 +33,15 @@ const LatestProjects = () => {
 						</Card>
 					})
 				}
+				<div className="filling-empty-space m-2"></div>
+				<div className="filling-empty-space m-2"></div>
+				<div className="filling-empty-space m-2"></div>
+				
 			</div>
 
-			<Link className="m-auto"><button className="mb-3">See More Projects</button></Link>
+			<div className="project-button-container mb-3">
+				<Link to="/portfolio"><button>See More Projects</button></Link>
+			</div>
 
 		</div>
 	)

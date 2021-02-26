@@ -13,6 +13,7 @@ function App() {
             <Header />
             <Switch>
                 <Route exact path="/" component={Home} />
+                <Route path="/portfolio" component={Portfolio} />
             </Switch>
         </BrowserRouter>
     </div>
