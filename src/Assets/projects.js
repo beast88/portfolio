@@ -4,8 +4,17 @@ import weather from './Screenshots/weather.PNG'
 import cv from './Screenshots/cv.PNG'
 import memory from './Screenshots/memory.PNG'
 import store from './Screenshots/store.PNG'
+import dex from './Screenshots/dex.PNG'
 
 const projects = [
+	{
+		id: 7,
+		name: 'Pokedex',
+		image: dex,
+		github: 'https://github.com/beast88/pokedex',
+		live: 'https://beast88.github.io/pokedex/',
+		type: 'react'
+	},
 	{
 		id: 6,
 		name: 'Online Store',
